@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "name": "Christophe Carreau-Lacasse",
+    "label": "Développeur",
+    "email": "chris.carreau@hotmail.com",
+    "phone": "+1 (438) 825-2012",
+    "summary": "Développeur web expérimenté qui se débrouille en développement de jeu vidéo",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "chriscarreau",
+        "url": "https://github.com/chriscarreau"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Christophe Carreau-Lacasse",
+        "url": "https://www.linkedin.com/in/christophe-carreau-lacasse-531a925a/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Square Enix Montréal/Studio Onoma",
+      "company": "Square Enix Montréal/Studio Onoma",
+      "position": "Programmeur Outils",
+      "startDate": "2019-01-01",
+      "endDate": "2022-11-01",
+      "summary": "Travaillé dans l'équipe central sur des outils Live-Ops utilisés par de multiples équipes de jeu au studio",
+      "highlights": [
+        "Créé un portail web pour les membres des équipes de jeu, afin qu'ils puissent gérer tout ce qui à trait aux Live-Ops dans leur jeu",
+        "Créé une application web complexe avec Angular 12 et Typescript",
+        "Collaboré sur le code serveur organisé en architecture de micro-service en C# (.NET 6) et Java",
+        "Implémenté de nouvelles fonctionalités sur un SDK Unity",
+        "Membre d'une équie agile"
+      ]
+    },
+    {
+      "name": "PPLCONNECT",
+      "company": "PPLCONNECT",
+      "position": "Programmeur stagiaire/Programmeur temps partiel",
+      "startDate": "2017-05-01",
+      "endDate": "2018-11-01",
+      "summary": "Stage dans une petite startup, travaillant principalement sur une plateforme de messagerie sur Android et sur une application web",
+      "highlights": [
+        "Maintenu une application web complexe de messagerie sur le web, écrite en Javascript, HTML et SCSS",
+        "Ajouté des fonctionalités à une application Android de messagerie"
+      ]
+    },
+    {
+      "name": "Desjardins",
+      "company": "Desjardins",
+      "position": "Programmeur stagiaire",
+      "startDate": "2016-05-01",
+      "endDate": "2016-09-01",
+      "summary": "Stage à Desjardins en tant que développeur web",
+      "highlights": [
+        "Travaillé dans l'équipe AccèsD à maintenir une application java complexe, ainsi que participé à la création d'une interface mobile en Angular 2 pour le site web d'AccèsD"
+      ]
+    },
+    {
+      "name": "Skytech Communications",
+      "company": "Skytech Communications",
+      "position": "Programmeur stagiaire/Programmeur temps partiel",
+      "startDate": "2013-05-01",
+      "endDate": "2015-09-01",
+      "summary": "Stage et travail à temps partiel en tant que développeur web sur la plateforme Omnivox",
+      "highlights": [
+        "Travaillé sur une base de code contenant à la fois du 'legacy code' ainsi qu'un nouveau projet en MVC 5 (C#)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Polytechnique Montréal",
+      "area": "Ingénierie Logicielle",
+      "studyType": "Baccalauréat",
+      "startDate": "2015-09-01",
+      "endDate": "2020-04-01"
+    },
+    {
+      "institution": "Technische Universität München",
+      "area": "Ingénierie Logicielle",
+      "studyType": "Échange",
+      "startDate": "2017-10-01",
+      "endDate": "2018-08-01"
+    },
+    {
+      "institution": "Cégep Édouard-Montpetit",
+      "area": "Informatique de Gestion",
+      "studyType": "DEC",
+      "startDate": "2012-09-01",
+      "endDate": "2015-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement Web 'Front-end'",
+      "level": "Expert",
+      "keywords": [
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "React"
+      ]
+    },
+    {
+      "name": "Développement Web 'Back-end'",
+      "level": "Expert",
+      "keywords": [
+        "C#/.NET",
+        "Java",
+        "VertX",
+        "Node.js",
+        "Micro-services"
+      ]
+    },
+    {
+      "name": "Outils",
+      "level": "Avancé",
+      "keywords": [
+        "Cypress",
+        "Figma",
+        "Git",
+        "Perforce"
+      ]
+    },
+    {
+      "name": "Développement de Jeu",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Unreal Engine",
+        "Unity",
+        "Godot"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermédiaire",
+      "keywords": [
+        "TeamCity",
+        "GitLab",
+        "GitHub",
+        "CI/CD",
+        "GCP",
+        "Docker",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "English",
+      "fluency": "Courant"
+    }
+  ],
+  "projects": [{
+    "name": "Resistance Online",
+    "description": "Port non-officiel du jeu de société 'Resistance'. Fait pour être joué localement en personne, où chaque joueur joue sur son téléphone, et le plateau est affiché  sur grand écran. Similaire aux jeux Jackbox.",
+    "summary": "Port non-officiel du jeu de société 'Resistance'. Fait pour être joué localement en personne, où chaque joueur joue sur son téléphone, et le plateau est affiché  sur grand écran. Similaire aux jeux Jackbox.",
+    "highlights": [
+      "Implémenté un websocket permettant à jusqu'à 10 joueurs de jouer ensemble en temps réel",
+      "Architecture 'Front-end' en React/Typescript",
+      "Architecture 'Back-end' avec Node.js et Express"
+    ],
+    "keywords": [
+      "React", "Node.js", "Websocket", "Game"
+    ],
+    "url": "http://resistance.chriscl.com/",
+    "type": "application"
+  }]
+}
