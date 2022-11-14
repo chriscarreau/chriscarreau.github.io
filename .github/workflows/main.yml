@@ -38,7 +38,8 @@ jobs:
           git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain index.html)" ]; then
             git add index.html
-            git commit -m "[ci skip] chore(index.html): update resume page"
+            git add fr.html
+            git commit -m "[ci skip] chore(index.html, fr.html): update resume pages"
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
