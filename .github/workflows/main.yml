@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain index.html)" ]; then
+          if [ -n "$(git status --porcelain index.html fr.html)" ]; then
             git add index.html
             git add fr.html
             git commit -m "[ci skip] chore(index.html, fr.html): update resume pages"
