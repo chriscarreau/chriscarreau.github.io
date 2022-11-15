@@ -4,7 +4,8 @@
   "description": "My resume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "resume export christophe_cl.fr.pdf -r christophe_cl.fr.resume.json -t stackoverflow-fr && resume export christophe_cl.en.pdf -r christophe_cl.en.resume.json -t stackoverflow"
   },
   "author": "",
   "license": "ISC",
