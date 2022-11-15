@@ -28,8 +28,8 @@
       "summary": "Worked on the central Live-Ops team to create tools for the multiple game teams of the studio.",
       "highlights": [
         "Built from scratch a tools portal for the game teams members to manage the different live operations related features of their game",
-        "Built a complex Angular 12 frontend project with Typescript",
-        "Worked on a large micro-services architecture in C# (.NET 6) and Java for the backend",
+        "Built a complex Angular 12 front-end project with Typescript",
+        "Worked on a large micro-services architecture in C# (.NET 6) and Java for the back-end",
         "Implemented our features in a Unity SDK",
         "Part of an agile team"
       ]
@@ -164,8 +164,8 @@
     "summary": "Unofficial port of the board game 'Resistance' to be played as a local couch-multiplayer game, where each player plays on their phone and the board is displayed on a big screen. Similar to Jackbox games.",
     "highlights": [
       "Websocket based real-time game for up to 10 players",
-      "React frontend architecture",
-      "Node.js with Express backend architecture"
+      "React front-end architecture",
+      "Node.js with Express back-end architecture"
     ],
     "keywords": [
       "React", "Node.js", "Websocket", "Game"
