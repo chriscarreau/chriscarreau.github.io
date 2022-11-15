@@ -25,12 +25,12 @@
       "position": "Programmeur Outils",
       "startDate": "2019-01-01",
       "endDate": "2022-11-01",
-      "summary": "Travaillé dans l'équipe central sur des outils Live-Ops utilisés par de multiples équipes de jeu au studio",
+      "summary": "Travaillé dans l'équipe centrale sur des outils Live-Ops utilisés par de multiples équipes de jeu au studio",
       "highlights": [
-        "Créé un portail web pour les membres des équipes de jeu, afin qu'ils puissent gérer tout ce qui à trait aux Live-Ops dans leur jeu",
+        "Créé un portail web pour les membres des équipes de jeu, afin qu'ils puissent gérer tout ce qui a trait aux Live-Ops dans leur jeu",
         "Créé une application web complexe avec Angular 12 et Typescript",
         "Collaboré sur le code serveur organisé en architecture de micro-service en C# (.NET 6) et Java",
-        "Implémenté de nouvelles fonctionalités sur un SDK Unity",
+        "Implémenté de nouvelles fonctionnalités sur un SDK Unity",
         "Membre d'une équie agile"
       ]
     },
@@ -40,10 +40,10 @@
       "position": "Programmeur stagiaire/Programmeur temps partiel",
       "startDate": "2017-05-01",
       "endDate": "2018-11-01",
-      "summary": "Stage dans une petite startup, travaillant principalement sur une plateforme de messagerie sur Android et sur une application web",
+      "summary": "Stage dans une petite start-up, travaillant principalement sur une plateforme de messagerie sur Android et sur une application web",
       "highlights": [
         "Maintenu une application web complexe de messagerie sur le web, écrite en Javascript, HTML et SCSS",
-        "Ajouté des fonctionalités à une application Android de messagerie"
+        "Ajouté des fonctionnalités à une application Android de messagerie"
       ]
     },
     {
