@@ -12,8 +12,8 @@
   "dependencies": {
     "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-kendall-fr": "^0.1.1",
-    "jsonresume-theme-stackoverflow": "^2.0.0",
-    "jsonresume-theme-stackoverflow-fr": "^2.2.0",
+    "jsonresume-theme-stackoverflow": "2.0.2",
+    "jsonresume-theme-stackoverflow-fr": "2.2.2",
     "resume-cli": "^3.0.8"
   }
 }

@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "email": "chris.carreau@hotmail.com",
     "phone": "+1 (438) 825-2012",
-    "summary": "Software engineer with strong experience in web development, and video game development",
+    "summary": "Software engineer with a strong background in web development, and an interest in anything multimedia",
     "profiles": [
       {
         "network": "Github",
@@ -20,8 +20,20 @@
   },
   "work": [
     {
-      "name": "Square Enix Montréal/Studio Onoma",
-      "company": "Square Enix Montréal/Studio Onoma",
+      "name": "Behaviour Interactive",
+      "company": "Behaviour Interactive",
+      "position": "Back-end Programmer, Senior back-end Programmer",
+      "startDate": "2023-01-01",
+      "summary": "Worked on the Dead by Daylight back-end team",
+      "highlights": [
+        "Worked on a distributed Typescript Node.js back-end handling thousands of requests per second",
+        "Refactored the micro-transactions logic to improve analytics and reduce technical debt",
+        "Was in charge of multiple releases deployment"
+      ]
+    },
+    {
+      "name": "Square Enix Montréal",
+      "company": "Square Enix Montréal",
       "position": "Tools Programmer",
       "startDate": "2019-01-01",
       "endDate": "2022-11-01",
@@ -40,11 +52,7 @@
       "position": "Intern Programmer/Part-Time Programmer",
       "startDate": "2017-05-01",
       "endDate": "2018-11-01",
-      "summary": "Internship in a small startup, working on a messaging platform on Android and on a web application",
-      "highlights": [
-        "Maintained a complex messaging web application written in JavaScript, HTML and SCSS",
-        "Added features on an Android Application"
-      ]
+      "summary": "Internship in a small startup, working on a messaging platform on Android and on a web application"
     },
     {
       "name": "Desjardins",
@@ -52,10 +60,7 @@
       "position": "Intern Programmer",
       "startDate": "2016-05-01",
       "endDate": "2016-09-01",
-      "summary": "Internship at Desjardins as a web developer",
-      "highlights": [
-        "Worked on the AccèsD team, maintaining a large Java codebase and helped start a new mobile UI for the AccèsD website, in Angular 2"
-      ]
+      "summary": "Internship at Desjardins as a web developer"
     },
     {
       "name": "Skytech Communications",
@@ -63,10 +68,7 @@
       "position": "Intern Programmer/Part-time Programmer",
       "startDate": "2013-05-01",
       "endDate": "2015-09-01",
-      "summary": "Internship and part-time job as a web developer on the Omnivox platform",
-      "highlights": [
-        "Worked on a legacy codebase in ASP.NET and on a large MVC5 project"
-      ]
+      "summary": "Internship and part-time job as a web developer on the Omnivox platform"
     }
   ],
   "education": [

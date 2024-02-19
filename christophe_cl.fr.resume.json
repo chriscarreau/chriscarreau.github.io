@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Christophe Carreau-Lacasse",
-    "label": "Développeur",
+    "label": "Programmeur",
     "email": "chris.carreau@hotmail.com",
     "phone": "+1 (438) 825-2012",
-    "summary": "Développeur web expérimenté qui se débrouille en développement de jeu vidéo",
+    "summary": "Programmeur expérimenté avec une solide expérience Web et un penchant pour tout ce qui est multimédia",
     "profiles": [
       {
         "network": "Github",
@@ -19,6 +19,18 @@
     ]
   },
   "work": [
+    {
+      "name": "Behaviour Interactive",
+      "company": "Behaviour Interactive",
+      "position": "Programmeur back-end, Programmeur back-end sénior",
+      "startDate": "2023-01-01",
+      "summary": "Travaillé dans l'équipe back-end de Dead by Daylight",
+      "highlights": [
+        "Travaillé sur une application serveur Node.js en Typescript qui traitent des milliers de requêtes par seconde",
+        "Refactorisé la logique de micro-transaction afin d'améliorer les analytiques ainsi que de réduire la dette technique",
+        "Été en charge de multiple deploiements"
+      ]
+    },
     {
       "name": "Square Enix Montréal/Studio Onoma",
       "company": "Square Enix Montréal/Studio Onoma",
@@ -40,11 +52,7 @@
       "position": "Programmeur stagiaire/Programmeur temps partiel",
       "startDate": "2017-05-01",
       "endDate": "2018-11-01",
-      "summary": "Stage dans une petite start-up, travaillant principalement sur une plateforme de messagerie sur Android et sur une application web",
-      "highlights": [
-        "Maintenu une application web complexe de messagerie sur le web, écrite en Javascript, HTML et SCSS",
-        "Ajouté des fonctionnalités à une application Android de messagerie"
-      ]
+      "summary": "Stage dans une petite start-up, travaillant principalement sur une plateforme de messagerie sur Android et sur une application web"
     },
     {
       "name": "Desjardins",
@@ -52,10 +60,7 @@
       "position": "Programmeur stagiaire",
       "startDate": "2016-05-01",
       "endDate": "2016-09-01",
-      "summary": "Stage à Desjardins en tant que développeur web",
-      "highlights": [
-        "Travaillé dans l'équipe AccèsD à maintenir une application java complexe, ainsi que participé à la création d'une interface mobile en Angular 2 pour le site web d'AccèsD"
-      ]
+      "summary": "Stage à Desjardins en tant que développeur web"
     },
     {
       "name": "Skytech Communications",
@@ -63,10 +68,7 @@
       "position": "Programmeur stagiaire/Programmeur temps partiel",
       "startDate": "2013-05-01",
       "endDate": "2015-09-01",
-      "summary": "Stage et travail à temps partiel en tant que développeur web sur la plateforme Omnivox",
-      "highlights": [
-        "Travaillé sur une base de code contenant à la fois du 'legacy code' ainsi qu'un nouveau projet en MVC 5 (C#)"
-      ]
+      "summary": "Stage et travail à temps partiel en tant que développeur web sur la plateforme Omnivox"
     }
   ],
   "education": [
@@ -144,7 +146,8 @@
         "CI/CD",
         "GCP",
         "Docker",
-        "Kubernetes"
+        "Kubernetes",
+        "AWS"
       ]
     }
   ],
