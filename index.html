@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Christophe Carreau-Lacasse</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
   <style>
   /********************************************
 * 	reset from
@@ -573,7 +573,7 @@ section .location {
 }
 
 .section > section > section {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /******************
@@ -649,7 +649,7 @@ section .location {
 }
 
 @media print {
-  a:not(.hide-href-print)::after{
+  #profiles a:not(.hide-href-print)::after{
     content: " (" attr(href) ") ";
   }
   #resume {
@@ -811,7 +811,7 @@ section .location {
     
     	<section class="section">
     		<section class="main-summary">
-    			<div><p>Software engineer with strong experience in web development, and video game development</p></div>
+    			<div><p><p>Software engineer with a strong background in web development, and an interest in anything multimedia</p></p></div>
     		</section>
     	</section>
     
@@ -908,7 +908,7 @@ section .location {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
       </header>
     
       <section id="work">
@@ -918,27 +918,49 @@ section .location {
     
           <header class="clear">
             <div class="date">
-              <span class="startDate">Jan 2019</span>
-              <span class="endDate">- Nov 2022</span>
+              <span class="startDate">Jan 2023</span>
+              <span class="endDate">- Current</span>
             </div>
-            <div class="position">Tools Programmer</div>
-            <div class="company">Square Enix Montréal/Studio Onoma</div>
+            <div class="position">Back-end Programmer, Senior back-end Programmer</div>
+            <div class="company">Behaviour Interactive</div>
           </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p>Worked on the central Live-Ops team to create tools for the multiple game teams of the studio.</p></div>
+            <div class="summary"><p><p>Worked on the Dead by Daylight back-end team</p></p></div>
             <ul class="highlights">
-              <li><p>Built an internal tools portal in Angular that was used to manage the different live operations related features of all of our games</p></li>
-              <li><p>Worked on a large micro-services architecture in C# (.NET 6) and Java for the back-end</p></li>
-              <li><p>Implemented multiple features in a Unity SDK</p></li>
-              <li><p>Participated and organised many SCRUM ceremonies such as: planification, sprint review and retrospective</p></li>
-              <li><p>Put in place a new Dev Guild framework more oriented toward actions and problem resolution</p></li>
+              <li><p><p>Worked on a distributed Typescript Node.js back-end handling thousands of requests per second</p></p></li>
+              <li><p><p>Refactored the micro-transactions logic to improve analytics and reduce technical debt</p></p></li>
+              <li><p><p>Was in charge of multiple releases deployment</p></p></li>
             </ul>
           </div>
         </section>
         <section class="work-item">
     
           <label for="work-item-1"></label>
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2019</span>
+              <span class="endDate">- Nov 2022</span>
+            </div>
+            <div class="position">Tools Programmer</div>
+            <div class="company">Square Enix Montréal</div>
+          </header>
+    
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Worked on the central Live-Ops team to create tools for the multiple game teams of the studio.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Built an internal tools portal in Angular that was used to manage the different live operations related features of all of our games</p></p></li>
+              <li><p><p>Worked on a large micro-services architecture in C# (.NET 6) and Java for the back-end</p></p></li>
+              <li><p><p>Implemented multiple features in a Unity SDK</p></p></li>
+              <li><p><p>Participated and organised many SCRUM ceremonies such as: planification, sprint review and retrospective</p></p></li>
+              <li><p><p>Put in place a new Dev Guild framework more oriented toward actions and problem resolution</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+          <label for="work-item-2"></label>
     
           <header class="clear">
             <div class="date">
@@ -950,16 +972,12 @@ section .location {
           </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p>Internship in a small startup, working on a messaging platform on Android and on a web application</p></div>
-            <ul class="highlights">
-              <li><p>Maintained a complex messaging web application written in JavaScript, HTML and SCSS</p></li>
-              <li><p>Added features on an Android Application</p></li>
-            </ul>
+            <div class="summary"><p><p>Internship in a small startup, working on a messaging platform on Android and on a web application</p></p></div>
           </div>
         </section>
         <section class="work-item">
     
-          <label for="work-item-2"></label>
+          <label for="work-item-3"></label>
     
           <header class="clear">
             <div class="date">
@@ -971,15 +989,12 @@ section .location {
           </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p>Internship at Desjardins as a web developer</p></div>
-            <ul class="highlights">
-              <li><p>Worked on the AccèsD team, maintaining a large Java codebase and helped start a new mobile UI for the AccèsD website, in Angular 2</p></li>
-            </ul>
+            <div class="summary"><p><p>Internship at Desjardins as a web developer</p></p></div>
           </div>
         </section>
         <section class="work-item">
     
-          <label for="work-item-3"></label>
+          <label for="work-item-4"></label>
     
           <header class="clear">
             <div class="date">
@@ -991,10 +1006,7 @@ section .location {
           </header>
     
            <div class="item" id="work-item">
-            <div class="summary"><p>Internship and part-time job as a web developer on the Omnivox platform</p></div>
-            <ul class="highlights">
-              <li><p>Worked on a legacy codebase in ASP.NET and on a large MVC5 project</p></li>
-            </ul>
+            <div class="summary"><p><p>Internship and part-time job as a web developer on the Omnivox platform</p></p></div>
           </div>
         </section>
       </section>
@@ -1021,11 +1033,11 @@ section .location {
               <li>Game</li>
           </ul>
           <div class="item">
-              <div class="summary"><p>Unofficial port of the board game 'Resistance' to be played as a local couch-multiplayer game, where each player plays on their phone and the board is displayed on a big screen. Similar to Jackbox games.</p></div>
+              <div class="summary"><p><p>Unofficial port of the board game 'Resistance' to be played as a local couch-multiplayer game, where each player plays on their phone and the board is displayed on a big screen. Similar to Jackbox games.</p></p></div>
             <ul class="highlights">
-                <li><p>Websocket based real-time game for up to 10 players</p></li>
-                <li><p>React front-end architecture</p></li>
-                <li><p>Node.js with Express back-end architecture</p></li>
+                <li><p><p>Websocket based real-time game for up to 10 players</p></p></li>
+                <li><p><p>React front-end architecture</p></p></li>
+                <li><p><p>Node.js with Express back-end architecture</p></p></li>
             </ul>
           </div>
         </section>
@@ -1046,11 +1058,11 @@ section .location {
               <li>Multiplayer</li>
           </ul>
           <div class="item">
-              <div class="summary"><p>Participated in the Ubisoft Gamelab Competition as a gameplay programmer, representing the Polytechnique and NAD team</p></div>
+              <div class="summary"><p><p>Participated in the Ubisoft Gamelab Competition as a gameplay programmer, representing the Polytechnique and NAD team</p></p></div>
             <ul class="highlights">
-                <li><p>Game done in Unreal Engine 4</p></li>
-                <li><p>Cooperative online multiplayer game</p></li>
-                <li><p>Blueprint and C++</p></li>
+                <li><p><p>Game done in Unreal Engine 4</p></p></li>
+                <li><p><p>Cooperative online multiplayer game</p></p></li>
+                <li><p><p>Blueprint and C++</p></p></li>
             </ul>
           </div>
         </section>
@@ -1064,6 +1076,14 @@ section .location {
       <section id="education">
         <section class="education-item">
           <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2020
+              </span>
+            </div>
             <div class="header-left">
               <div class="studyType">
                 Bachelor
@@ -1075,14 +1095,6 @@ section .location {
                 Polytechnique Montréal
               </div>
             </div>
-            <div class="date">
-              <span class="startDate">
-              2015
-              </span>
-              <span class="endDate">
-              - 2020
-              </span>
-            </div>
           </header>
     
     
@@ -1092,6 +1104,14 @@ section .location {
         </section>
         <section class="education-item">
           <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2017
+              </span>
+              <span class="endDate">
+              - 2018
+              </span>
+            </div>
             <div class="header-left">
               <div class="studyType">
                 Exchange
@@ -1103,14 +1123,6 @@ section .location {
                 Technische Universität München
               </div>
             </div>
-            <div class="date">
-              <span class="startDate">
-              2017
-              </span>
-              <span class="endDate">
-              - 2018
-              </span>
-            </div>
           </header>
     
     
@@ -1120,6 +1132,14 @@ section .location {
         </section>
         <section class="education-item">
           <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2012
+              </span>
+              <span class="endDate">
+              - 2015
+              </span>
+            </div>
             <div class="header-left">
               <div class="studyType">
                 DEC
@@ -1130,14 +1150,6 @@ section .location {
               <div class="institution">
                 Cégep Édouard-Montpetit
               </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              2012
-              </span>
-              <span class="endDate">
-              - 2015
-              </span>
             </div>
           </header>
     
