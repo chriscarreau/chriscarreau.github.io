@@ -1,34 +1,51 @@
 {
+  "meta": {
+    "x-lang": "en"
+  },
   "basics": {
     "name": "Christophe Carreau-Lacasse",
-    "label": "Software Engineer",
+    "label": "Senior Software Engineer",
     "email": "chris.carreau@hotmail.com",
     "phone": "+1 (438) 825-2012",
-    "summary": "Software engineer with a strong background in web development, and an interest in anything multimedia",
+    "location": {
+      "city": "Montréal",
+      "countryCode": "CA",
+      "region": "Québec"
+    },
+    "summary": "Fullstack senior software engineer with a strong background in web development, and an interest in anything multimedia",
     "profiles": [
       {
         "network": "Github",
         "username": "chriscarreau",
         "url": "https://github.com/chriscarreau"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "Christophe Carreau-Lacasse",
-        "url": "https://www.linkedin.com/in/christophe-carreau-lacasse-531a925a/"
       }
     ]
   },
   "work": [
     {
+      "name": "Big Fish Games",
+      "company": "Big Fish Games",
+      "position": "Senior Fullstack Programmer",
+      "startDate": "2024-11-01",
+      "summary": "Worked on the Publisher portal",
+      "highlights": [
+        "Part of a small agile team in charge of creating a web-based publisher portal",
+        "Managed a CI/CD pipeline with Kubernetes deployment on GCP",
+        "Adapted an existing Java and C# micro-service game backend to fit the goal of the publisher portal",
+        "Mentored junior developers and helped them develop their soft and hard skills",
+        "Part of an on-call rotation to ensure reliability of our deployed services"
+      ]
+    },
+    {
       "name": "Behaviour Interactive",
       "company": "Behaviour Interactive",
-      "position": "Back-end Programmer, Senior back-end Programmer",
+      "position": "Senior back-end Programmer",
       "startDate": "2023-01-01",
+      "endDate": "2024-10-31",
       "summary": "Worked on the Dead by Daylight back-end team",
       "highlights": [
         "Worked on a distributed Typescript Node.js back-end handling thousands of requests per second",
-        "Refactored the micro-transactions logic to improve analytics and reduce technical debt",
-        "Was in charge of multiple releases deployment"
+        "Refactored the micro-transactions logic to improve analytics and reduce technical debt"
       ]
     },
     {
@@ -42,33 +59,21 @@
         "Built an internal tools portal in Angular that was used to manage the different live operations related features of all of our games",
         "Worked on a large micro-services architecture in C# (.NET 6) and Java for the back-end",
         "Implemented multiple features in a Unity SDK",
-        "Participated and organised many SCRUM ceremonies such as: planification, sprint review and retrospective",
-        "Put in place a new Dev Guild framework more oriented toward actions and problem resolution"
+        "Put in place a new Dev Guild community more oriented toward actions and problem resolution"
       ]
     },
     {
-      "name": "PPLCONNECT",
-      "company": "PPLCONNECT",
-      "position": "Intern Programmer/Part-Time Programmer",
-      "startDate": "2017-05-01",
-      "endDate": "2018-11-01",
-      "summary": "Internship in a small startup, working on a messaging platform on Android and on a web application"
-    },
-    {
-      "name": "Desjardins",
-      "company": "Desjardins",
+      "name": "Internships",
+      "company": "Internships",
       "position": "Intern Programmer",
-      "startDate": "2016-05-01",
-      "endDate": "2016-09-01",
-      "summary": "Internship at Desjardins as a web developer"
-    },
-    {
-      "name": "Skytech Communications",
-      "company": "Skytech Communications",
-      "position": "Intern Programmer/Part-time Programmer",
       "startDate": "2013-05-01",
-      "endDate": "2015-09-01",
-      "summary": "Internship and part-time job as a web developer on the Omnivox platform"
+      "endDate": "2018-11-01",
+      "summary": "Throughout my education I've had multiple programming internships",
+      "highlights": [
+        "Web developer intern for Skytech Communication, on the Omnivox platform",
+        "Fullstack developer intern at Desjardins, working on the Accès D platform",
+        "Android developer intern at PPLCONNECT, a small startup of 4-5 employees"
+      ]
     }
   ],
   "education": [
@@ -96,25 +101,49 @@
   ],
   "skills": [
     {
-      "name": "Front-end Web Development",
+      "name": "Front-end",
       "level": "Master",
       "keywords": [
-        "CSS/SCSS",
         "Javascript",
         "Typescript",
         "Angular",
-        "React"
+        "React",
+        "Vue.js",
+        "CSS/SCSS",
+        "Tailwind CSS"
       ]
     },
     {
-      "name": "Back-end Web Development",
+      "name": "Back-end",
       "level": "Master",
       "keywords": [
+        "Micro-services",
+        "Multi-Region",
         "C#/.NET",
         "Java",
         "VertX",
         "Node.js",
-        "Micro-services"
+        "Rust",
+        "PostgreSQL",
+        "MS-SQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "TeamCity",
+        "Jenkins",
+        "GitLab",
+        "GitHub",
+        "CI/CD",
+        "GCP",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
       ]
     },
     {
@@ -122,6 +151,7 @@
       "level": "Advanced",
       "keywords": [
         "Cypress",
+        "Playwright",
         "Figma",
         "Git",
         "Perforce"
@@ -135,19 +165,6 @@
         "Unity",
         "Godot"
       ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Intermediate",
-      "keywords": [
-        "TeamCity",
-        "GitLab",
-        "GitHub",
-        "CI/CD",
-        "GCP",
-        "Docker",
-        "Kubernetes"
-      ]
     }
   ],
   "languages": [
@@ -157,10 +174,28 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Master"
     }
   ],
   "projects": [
+    {
+      "name": "Movie Rater",
+      "description": "Ultimate movie rating platform, where you find out your favorite movie by matching movies you've seen against each other",
+      "summary": "Ultimate movie rating platform, where you find out your favorite movie by matching movies you've seen against each other",
+      "highlights": [
+        "Pairwise comparison using an ELO-based rating system for movies",
+        "Integrated a third-party API to fetch movie data",
+        "Docker container setup for development and deployment"
+      ],
+      "keywords": [
+        "React",
+        "Rust",
+        "PostgreSQL"
+      ],
+      "url": "https://gitlab.com/chriscarreau/movie-rater",
+      "type": "application",
+      "roles": []
+    },
     {
       "name": "Resistance Online",
       "description": "Unofficial port of the board game 'Resistance' to be played as a local couch-multiplayer game, where each player plays on their phone and the board is displayed on a big screen. Similar to Jackbox games.",
@@ -176,26 +211,8 @@
         "Websocket",
         "Game"
       ],
-      "url": "http://resistance.chriscl.com/",
-      "type": "application"
-    },
-    {
-      "name": "Ubisoft GameLab Competition",
-      "description": "Participated in the Ubisoft Gamelab Competition as a gameplay programmer, representing the Polytechnique and NAD team",
-      "summary": "Participated in the Ubisoft Gamelab Competition as a gameplay programmer, representing the Polytechnique and NAD team",
-      "highlights": [
-        "Game done in Unreal Engine 4",
-        "Cooperative online multiplayer game",
-        "Blueprint and C++"
-      ],
-      "keywords": [
-        "Unreal Engine",
-        "C++",
-        "Game",
-        "Multiplayer"
-      ],
-      "url": "https://www.youtube.com/watch?v=9-Fl4NRe2JU",
-      "type": "competition"
+      "type": "application",
+      "roles": []
     }
   ]
 }

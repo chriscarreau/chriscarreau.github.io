@@ -17,20 +17,10 @@ jobs:
     needs: check_run
     steps:
       - uses: actions/checkout@v2
-      - uses: kelvintaywl/action-jsonresume-export@v1
-        name: Export resume as HTML
-        with:
-          theme: stackoverflow
-          resume_filepath: christophe_cl.en.resume.json
-          # modifies the index.html in-place
-          output_filepath: index.html
-      - uses: kelvintaywl/action-jsonresume-export@v1
-        name: Export resume as HTML
-        with:
-          theme: stackoverflow-fr
-          resume_filepath: christophe_cl.fr.resume.json
-          # modifies the index.html in-place
-          output_filepath: fr.html
+      - name: Export resume as HTML
+        run: |
+          npm ci
+          npm run build-web
       - name: Commit published HTML
         id: commit
         run: |

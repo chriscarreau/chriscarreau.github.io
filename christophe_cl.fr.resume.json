@@ -1,34 +1,51 @@
 {
+  "meta": {
+    "x-lang": "fr"
+  },
   "basics": {
     "name": "Christophe Carreau-Lacasse",
-    "label": "Programmeur",
+    "label": "Programmeur Sénior",
     "email": "chris.carreau@hotmail.com",
     "phone": "+1 (438) 825-2012",
-    "summary": "Programmeur expérimenté avec une solide expérience Web et un penchant pour tout ce qui est multimédia",
+    "location": {
+      "city": "Montréal",
+      "countryCode": "CA",
+      "region": "Québec"
+    },
+    "summary": "Programmeur fullstack sénior avec une solide expérience Web et un penchant pour tout ce qui est multimédia",
     "profiles": [
       {
         "network": "Github",
         "username": "chriscarreau",
         "url": "https://github.com/chriscarreau"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "Christophe Carreau-Lacasse",
-        "url": "https://www.linkedin.com/in/christophe-carreau-lacasse-531a925a/"
       }
     ]
   },
   "work": [
     {
+      "name": "Big Fish Games",
+      "company": "Big Fish Games",
+      "position": "Programmeur Fullstack Sénior",
+      "startDate": "2024-11-01",
+      "summary": "Mis en place d'un portail de publication",
+      "highlights": [
+        "Fais partie d'une petite équipe agile en charge de la création d'un portail de publication web",
+        "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP",
+        "Adapté une application serveur avec une architecture de micro-service en C# et Java pour l'utiliser dans le cadre du portail de publication",
+        "Mentoré des programmeurs juniors afin de développer leurs compétences techniques et professionnels",
+        "Fait partie d'une rotation \"On-Call\" pour assurer la fiabilité de nos services déployés"
+      ]
+    },
+    {
       "name": "Behaviour Interactive",
       "company": "Behaviour Interactive",
-      "position": "Programmeur back-end, Programmeur back-end sénior",
+      "position": "Programmeur back-end sénior",
       "startDate": "2023-01-01",
+      "endDate": "2024-10-31",
       "summary": "Travaillé dans l'équipe back-end de Dead by Daylight",
       "highlights": [
         "Travaillé sur une application serveur Node.js en Typescript qui traitent des milliers de requêtes par seconde",
-        "Refactorisé la logique de micro-transaction afin d'améliorer les analytiques ainsi que de réduire la dette technique",
-        "Été en charge de multiple deploiements"
+        "Refactorisé la logique de micro-transaction afin d'améliorer les analytiques ainsi que de réduire la dette technique"
       ]
     },
     {
@@ -42,33 +59,21 @@
         "Créé un portail web interne avec Angular, afin de gérer tout ce qui a trait aux Live-Ops dans tous les jeux du studios",
         "Collaboré sur le code serveur organisé en architecture de micro-service en C# (.NET 6) et Java",
         "Participé au développement d'un SDK sous Unity",
-        "Participation et organisation de cérémonies SCRUM tel que: planification, sprint review et rétrospective",
-        "Mis en place un nouveau cadre autour de la guilde des développeurs, centré sur l'action et la résolution de problème"
+        "Mis en place une nouvelle guilde des développeurs, centré sur l'action et la résolution de problème"
       ]
     },
     {
-      "name": "PPLCONNECT",
-      "company": "PPLCONNECT",
-      "position": "Programmeur stagiaire/Programmeur temps partiel",
-      "startDate": "2017-05-01",
-      "endDate": "2018-11-01",
-      "summary": "Stage dans une petite start-up, travaillant principalement sur une plateforme de messagerie sur Android et sur une application web"
-    },
-    {
-      "name": "Desjardins",
-      "company": "Desjardins",
+      "name": "Stages",
+      "company": "Stages",
       "position": "Programmeur stagiaire",
-      "startDate": "2016-05-01",
-      "endDate": "2016-09-01",
-      "summary": "Stage à Desjardins en tant que développeur web"
-    },
-    {
-      "name": "Skytech Communications",
-      "company": "Skytech Communications",
-      "position": "Programmeur stagiaire/Programmeur temps partiel",
       "startDate": "2013-05-01",
-      "endDate": "2015-09-01",
-      "summary": "Stage et travail à temps partiel en tant que développeur web sur la plateforme Omnivox"
+      "endDate": "2018-11-01",
+      "summary": "Au cours de mon éducation, j'ai complété plusieurs stages en entreprises",
+      "highlights": [
+        "Programmeur web chez Skytech Communication, où j'ai travaillé sur la plateforme Omnivox",
+        "Programmeur fullstack chez Desjardins, où j'ai travaillé sur la plateforme Accès D",
+        "Programmeur Android chez PPLCONNECT, une petite entreprise de style \"startup\" avec 4-5 employés"
+      ]
     }
   ],
   "education": [
@@ -96,32 +101,57 @@
   ],
   "skills": [
     {
-      "name": "Développement Web 'Front-end'",
-      "level": "Expert",
+      "name": "Front-end",
+      "level": "master",
       "keywords": [
-        "CSS/SCSS",
         "Javascript",
         "Typescript",
         "Angular",
-        "React"
+        "React",
+        "Vue.js",
+        "CSS/SCSS",
+        "Tailwind CSS"
       ]
     },
     {
-      "name": "Développement Web 'Back-end'",
-      "level": "Expert",
+      "name": "Back-end",
+      "level": "master",
       "keywords": [
+        "Micro-services",
+        "Multi-Region",
         "C#/.NET",
         "Java",
         "VertX",
         "Node.js",
-        "Micro-services"
+        "Rust",
+        "PostgreSQL",
+        "MS-SQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "advanced",
+      "keywords": [
+        "TeamCity",
+        "Jenkins",
+        "GitLab",
+        "GitHub",
+        "CI/CD",
+        "GCP",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
       ]
     },
     {
       "name": "Outils",
-      "level": "Avancé",
+      "level": "advanced",
       "keywords": [
         "Cypress",
+        "Playwright",
         "Figma",
         "Git",
         "Perforce"
@@ -129,25 +159,11 @@
     },
     {
       "name": "Développement de Jeu",
-      "level": "Intermédiaire",
+      "level": "intermediate",
       "keywords": [
         "Unreal Engine",
         "Unity",
         "Godot"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Intermédiaire",
-      "keywords": [
-        "TeamCity",
-        "GitLab",
-        "GitHub",
-        "CI/CD",
-        "GCP",
-        "Docker",
-        "Kubernetes",
-        "AWS"
       ]
     }
   ],
@@ -158,10 +174,28 @@
     },
     {
       "language": "Anglais",
-      "fluency": "Courant"
+      "fluency": "Expert"
     }
   ],
   "projects": [
+    {
+      "name": "Movie Rater",
+      "description": "La plateforme de classement de film ultime! Découvrer quel est votre film préféré à l'aide d'une série de comparaison par paire des films que vous avez déjà visionné",
+      "summary": "La plateforme de classement de film ultime! Découvrer quel est votre film préféré à l'aide d'une série de comparaison par paire des films que vous avez déjà visionné",
+      "highlights": [
+        "Algorithme de classement inspiré de ELO",
+        "Intégré un API tierce afin d'obtenir les informations des films",
+        "Mis en place de containeur Docker autant pour le dévelopement que pour les déploiements"
+      ],
+      "keywords": [
+        "React",
+        "Rust",
+        "PostgreSQL"
+      ],
+      "url": "https://gitlab.com/chriscarreau/movie-rater",
+      "type": "application",
+      "roles": []
+    },
     {
       "name": "Resistance Online",
       "description": "Port non-officiel du jeu de société 'Resistance'. Fait pour être joué localement en personne, où chaque joueur joue sur son téléphone, et le plateau est affiché  sur grand écran. Similaire aux jeux Jackbox.",
@@ -177,26 +211,8 @@
         "Websocket",
         "Game"
       ],
-      "url": "http://resistance.chriscl.com/",
-      "type": "application"
-    },
-    {
-      "name": "Concours Universitaire Ubisoft",
-      "description": "Participé au concours Universitaire Ubisoft en tant que programmeur gameplay, représentant l'équipe de Polytechnique en collaboration avec NAD",
-      "summary": "Participé au concours Universitaire Ubisoft en tant que programmeur gameplay, représentant l'équipe de Polytechnique en collaboration avec NAD",
-      "highlights": [
-        "Jeu réalisé avec Unreal Engine 4",
-        "Jeu coopératif en ligne",
-        "Blueprint et C++"
-      ],
-      "keywords": [
-        "Unreal Engine",
-        "C++",
-        "Game",
-        "Multiplayer"
-      ],
-      "url": "https://www.youtube.com/watch?v=9-Fl4NRe2JU",
-      "type": "competition"
+      "type": "application",
+      "roles": []
     }
   ]
 }
