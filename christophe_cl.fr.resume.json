@@ -29,7 +29,7 @@
       "startDate": "2024-11-01",
       "summary": "Mis en place d'un portail de publication",
       "highlights": [
-        "Fait partie d'une petite équipe agile en charge de la création d'un portail de publication web",
+        "Fait partie d'une petite équipe agile en charge de la création d'un portail de publication web fait avec Angular",
         "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP",
         "Adapté une application serveur avec une architecture de microservices en C# et Java pour l'utiliser dans le cadre du portail de publication",
         "Mentoré des programmeurs juniors afin de développer leurs compétences techniques et professionnelles",
@@ -180,8 +180,8 @@
   "projects": [
     {
       "name": "Movie Rater",
-      "description": "La plateforme de classement de film ultime! Découvrer quel est votre film préféré à l'aide d'une série de comparaison par paire des films que vous avez déjà visionné",
-      "summary": "La plateforme de classement de film ultime! Découvrer quel est votre film préféré à l'aide d'une série de comparaison par paire des films que vous avez déjà visionné",
+      "description": "La plateforme de classement de films ultime! Découvrez quel est votre film préféré à l'aide d'une série de comparaisons par paire des films que vous avez déjà visionnés",
+      "summary": "La plateforme de classement de films ultime! Découvrez quel est votre film préféré à l'aide d'une série de comparaisons par paire des films que vous avez déjà visionnés",
       "highlights": [
         "Algorithme de classement inspiré de ELO",
         "Intégré un API tierce afin d'obtenir les informations des films",

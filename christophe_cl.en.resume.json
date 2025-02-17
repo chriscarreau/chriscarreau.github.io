@@ -29,7 +29,7 @@
       "startDate": "2024-11-01",
       "summary": "Worked on the Publisher portal",
       "highlights": [
-        "Part of a small agile team in charge of creating a web-based publisher portal",
+        "Part of a small agile team in charge of creating a web-based publisher portal made with Angular",
         "Managed a CI/CD pipeline with Kubernetes deployment on GCP",
         "Adapted an existing Java and C# microservices game backend to fit the goal of the publisher portal",
         "Mentored junior developers and helped them develop their soft and hard skills",
