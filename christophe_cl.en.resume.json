@@ -31,7 +31,7 @@
       "highlights": [
         "Part of a small agile team in charge of creating a web-based publisher portal",
         "Managed a CI/CD pipeline with Kubernetes deployment on GCP",
-        "Adapted an existing Java and C# micro-service game backend to fit the goal of the publisher portal",
+        "Adapted an existing Java and C# microservices game backend to fit the goal of the publisher portal",
         "Mentored junior developers and helped them develop their soft and hard skills",
         "Part of an on-call rotation to ensure reliability of our deployed services"
       ]
@@ -57,7 +57,7 @@
       "summary": "Worked on the central Live-Ops team to create tools for the multiple game teams of the studio.",
       "highlights": [
         "Built an internal tools portal in Angular that was used to manage the different live operations related features of all of our games",
-        "Worked on a large micro-services architecture in C# (.NET 6) and Java for the back-end",
+        "Worked on a large microservices architecture in C# (.NET 6) and Java for the back-end",
         "Implemented multiple features in a Unity SDK",
         "Put in place a new Dev Guild community more oriented toward actions and problem resolution"
       ]

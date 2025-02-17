@@ -29,10 +29,10 @@
       "startDate": "2024-11-01",
       "summary": "Mis en place d'un portail de publication",
       "highlights": [
-        "Fais partie d'une petite équipe agile en charge de la création d'un portail de publication web",
+        "Fait partie d'une petite équipe agile en charge de la création d'un portail de publication web",
         "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP",
-        "Adapté une application serveur avec une architecture de micro-service en C# et Java pour l'utiliser dans le cadre du portail de publication",
-        "Mentoré des programmeurs juniors afin de développer leurs compétences techniques et professionnels",
+        "Adapté une application serveur avec une architecture de microservices en C# et Java pour l'utiliser dans le cadre du portail de publication",
+        "Mentoré des programmeurs juniors afin de développer leurs compétences techniques et professionnelles",
         "Fait partie d'une rotation \"On-Call\" pour assurer la fiabilité de nos services déployés"
       ]
     },
@@ -57,7 +57,7 @@
       "summary": "Travaillé dans l'équipe centrale sur des outils Live-Ops utilisés par de multiples équipes de jeu au studio",
       "highlights": [
         "Créé un portail web interne avec Angular, afin de gérer tout ce qui a trait aux Live-Ops dans tous les jeux du studios",
-        "Collaboré sur le code serveur organisé en architecture de micro-service en C# (.NET 6) et Java",
+        "Collaboré sur le code serveur organisé en architecture de microservices en C# (.NET 6) et Java",
         "Participé au développement d'un SDK sous Unity",
         "Mis en place une nouvelle guilde des développeurs, centré sur l'action et la résolution de problème"
       ]
