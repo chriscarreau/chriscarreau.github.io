@@ -30,7 +30,7 @@
       "summary": "Worked on the Publisher portal",
       "highlights": [
         "Part of a small agile team in charge of creating a web-based publisher portal made with Angular",
-        "Managed a CI/CD pipeline with Kubernetes deployment on GCP",
+        "Managed a CI/CD pipeline with Kubernetes deployment on GCP, with monitoring using Prometheus and New Relic",
         "Adapted an existing Java and C# microservices game backend to fit the goal of the publisher portal",
         "Mentored junior developers and helped them develop their soft and hard skills",
         "Part of an on-call rotation to ensure reliability of our deployed services"
@@ -44,8 +44,8 @@
       "endDate": "2024-10-31",
       "summary": "Worked on the Dead by Daylight back-end team",
       "highlights": [
-        "Worked on a distributed Typescript Node.js back-end handling thousands of requests per second",
-        "Refactored the micro-transactions logic to improve analytics and reduce technical debt"
+        "Worked on a distributed Typescript Node.js back-end for a live-service game used by millions of players",
+        "Led a major refactor of the microtransactions service, improving monitoring, analytics, and reducing technical debt, influencing architecture decisions across the team"
       ]
     },
     {

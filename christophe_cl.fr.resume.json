@@ -30,7 +30,7 @@
       "summary": "Mis en place d'un portail de publication",
       "highlights": [
         "Fait partie d'une petite équipe agile en charge de la création d'un portail de publication web fait avec Angular",
-        "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP",
+        "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP, avec observabilité grâce à Prometheus et New Relic",
         "Adapté une application serveur avec une architecture de microservices en C# et Java pour l'utiliser dans le cadre du portail de publication",
         "Mentoré des programmeurs juniors afin de développer leurs compétences techniques et professionnelles",
         "Fait partie d'une rotation \"On-Call\" pour assurer la fiabilité de nos services déployés"
@@ -44,8 +44,9 @@
       "endDate": "2024-10-31",
       "summary": "Travaillé dans l'équipe back-end de Dead by Daylight",
       "highlights": [
-        "Travaillé sur une application serveur Node.js en Typescript qui traitent des milliers de requêtes par seconde",
-        "Refactorisé la logique de micro-transaction afin d'améliorer les analytiques ainsi que de réduire la dette technique"
+        "Travaillé sur une application serveur Node.js en Typescript utilisés par un jeu \"live-service\" avec des millions de joueurs",
+        "Mené une refonte majeure du service de microtransactions, améliorant l'observabilité, l'analytique et réduisant la dette technique, tout en influençant les décisions architecturales au sein de l'équipe.",
+        "Refactorisé le service de micro-transactions afin d'améliorer l'observabilité et les données analytiques ainsi que de réduire la dette technique"
       ]
     },
     {
