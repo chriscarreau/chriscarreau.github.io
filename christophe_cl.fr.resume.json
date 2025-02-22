@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Christophe Carreau-Lacasse",
-    "label": "Programmeur Sénior",
+    "label": "Programmeur Fullstack Sénior",
     "email": "chris.carreau@hotmail.com",
     "phone": "+1 (438) 825-2012",
     "location": {
@@ -12,7 +12,7 @@
       "countryCode": "CA",
       "region": "Québec"
     },
-    "summary": "Programmeur fullstack sénior avec une solide expérience Web et un penchant pour tout ce qui est multimédia",
+    "summary": "Développeur fullstack sénior passionné par le développement web et tout ce qui est interactif, avec une solide expérience en back-end et DevOps. Grâce à une expertise approfondie en microservices, pipelines CI/CD et technologies cloud (GCP, AWS), j'ai contribué à des projets d'envergure, notamment dans l'industrie du jeu vidéo, incluant des jeux live-service avec des millions d'utilisateurs. Mon parcours m'a permis de concevoir des systèmes évolutifs, d'optimiser des processus de déploiement et d'améliorer l'observabilité des systèmes grâce à des outils comme Prometheus et New Relic. J'ai également encadré des développeurs pour accroître la productivité de l'équipe et favoriser leur croissance, tout en restant motivé par de nouveaux défis techniques et des opportunités d'apprentissage continu",
     "profiles": [
       {
         "network": "Github",
@@ -27,13 +27,12 @@
       "company": "Big Fish Games",
       "position": "Programmeur Fullstack Sénior",
       "startDate": "2024-11-01",
-      "summary": "Mis en place d'un portail de publication",
       "highlights": [
-        "Fait partie d'une petite équipe agile en charge de la création d'un portail de publication web fait avec Angular",
-        "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP, avec observabilité grâce à Prometheus et New Relic",
-        "Adapté une application serveur avec une architecture de microservices en C# et Java pour l'utiliser dans le cadre du portail de publication",
-        "Mentoré des programmeurs juniors afin de développer leurs compétences techniques et professionnelles",
-        "Fait partie d'une rotation \"On-Call\" pour assurer la fiabilité de nos services déployés"
+        "Fait partie d'une petite équipe agile en charge de la création d'un portail de publication de jeu fait avec Angular",
+        "Gestion d'un pipeline CI/CD avec déploiements Kubernetes sur GCP, avec observabilité grâce à Prometheus et New Relic, réduisant le temps de déploiement à quelques minutes et permettant un rollback instantané en cas de problème",
+        "Simplifié et adapté une architecture serveur complexe en microservices (C# et Java) en supprimant les fonctionnalités inutiles et en ajoutant celles nécessaires au portail de publication. Cette approche a accéléré le développement tout en maintenant un haut niveau d'optimisation et en assurant une scalabilité efficace du service",
+        "Mentoré des programmeurs juniors en développant leurs compétences techniques et professionnelles, afin qu'ils deviennent plus autonomes",
+        "Mis en place une configuration optimisée avec Docker Compose, réduisant le temps de setup des environnements de développement de plusieurs heures à quelques minutes, améliorant ainsi la productivité de toute l'équipe"
       ]
     },
     {
@@ -42,11 +41,10 @@
       "position": "Programmeur back-end sénior",
       "startDate": "2023-01-01",
       "endDate": "2024-10-31",
-      "summary": "Travaillé dans l'équipe back-end de Dead by Daylight",
       "highlights": [
-        "Travaillé sur une application serveur Node.js en Typescript utilisés par un jeu \"live-service\" avec des millions de joueurs",
-        "Mené une refonte majeure du service de microtransactions, améliorant l'observabilité, l'analytique et réduisant la dette technique, tout en influençant les décisions architecturales au sein de l'équipe.",
-        "Refactorisé le service de micro-transactions afin d'améliorer l'observabilité et les données analytiques ainsi que de réduire la dette technique"
+        "Contribué au développement et à la maintenance d'un backend Node.js en Typescript pour \"Dead by Daylight\" un jeu live-service avec des millions de joueurs, garantissant la stabilité et l'évolutivité des services backend",
+        "Mené une refonte complète du service de microtransactions (traitant des milliers de transactions par jour), réduisant l'écart d'environ 10% entre les analytics internes et les revenus réels. Cette amélioration a renforcé l'observabilité des transactions et permis des décisions plus précises en matière de monétisation",
+        "Investigué et corrigé de nombreux bogues signalés par les joueurs, souvent liés à des cas limites et des scénarios d'utilisation imprévus. Ces correctifs ont amélioré la stabilité et l'expérience utilisateur du jeu en production"
       ]
     },
     {
@@ -55,25 +53,11 @@
       "position": "Programmeur Outils",
       "startDate": "2019-01-01",
       "endDate": "2022-11-01",
-      "summary": "Travaillé dans l'équipe centrale sur des outils Live-Ops utilisés par de multiples équipes de jeu au studio",
       "highlights": [
-        "Créé un portail web interne avec Angular, afin de gérer tout ce qui a trait aux Live-Ops dans tous les jeux du studios",
+        "Développé un portail interne en Angular utilisé par trois équipes de jeux, permettant de centraliser la gestion des Live-Ops. Cela a évité à chaque équipe de recréer son propre backend, leur permettant ainsi de se concentrer uniquement sur le développement du jeu",
         "Collaboré sur le code serveur organisé en architecture de microservices en C# (.NET 6) et Java",
-        "Participé au développement d'un SDK sous Unity",
-        "Mis en place une nouvelle guilde des développeurs, centré sur l'action et la résolution de problème"
-      ]
-    },
-    {
-      "name": "Stages",
-      "company": "Stages",
-      "position": "Programmeur stagiaire",
-      "startDate": "2013-05-01",
-      "endDate": "2018-11-01",
-      "summary": "Au cours de mon éducation, j'ai complété plusieurs stages en entreprises",
-      "highlights": [
-        "Programmeur web chez Skytech Communication, où j'ai travaillé sur la plateforme Omnivox",
-        "Programmeur fullstack chez Desjardins, où j'ai travaillé sur la plateforme Accès D",
-        "Programmeur Android chez PPLCONNECT, une petite entreprise de style \"startup\" avec 4-5 employés"
+        "Participé au développement d'un SDK Unity facilitant l'intégration des services backend dans les jeux du studio, permettant aux équipes de jeu d'accéder rapidement aux fonctionnalités Live-Ops sans effort supplémentaire côté client",
+        "Fondé une guilde de développeurs axée sur le partage de connaissances, l'adoption de meilleures pratiques et la résolution de problèmes concrets rencontrés par les équipes techniques, améliorant ainsi la collaboration et l'efficacité globale des développeurs du studio"
       ]
     }
   ],
@@ -84,20 +68,6 @@
       "studyType": "Baccalauréat",
       "startDate": "2015-09-01",
       "endDate": "2020-04-01"
-    },
-    {
-      "institution": "Technische Universität München",
-      "area": "Ingénierie Logicielle",
-      "studyType": "Échange",
-      "startDate": "2017-10-01",
-      "endDate": "2018-08-01"
-    },
-    {
-      "institution": "Cégep Édouard-Montpetit",
-      "area": "Informatique de Gestion",
-      "studyType": "DEC",
-      "startDate": "2012-09-01",
-      "endDate": "2015-05-01"
     }
   ],
   "skills": [
@@ -157,15 +127,6 @@
         "Git",
         "Perforce"
       ]
-    },
-    {
-      "name": "Développement de Jeu",
-      "level": "intermediate",
-      "keywords": [
-        "Unreal Engine",
-        "Unity",
-        "Godot"
-      ]
     }
   ],
   "languages": [
@@ -184,9 +145,10 @@
       "description": "La plateforme de classement de films ultime! Découvrez quel est votre film préféré à l'aide d'une série de comparaisons par paire des films que vous avez déjà visionnés",
       "summary": "La plateforme de classement de films ultime! Découvrez quel est votre film préféré à l'aide d'une série de comparaisons par paire des films que vous avez déjà visionnés",
       "highlights": [
-        "Algorithme de classement inspiré de ELO",
-        "Intégré un API tierce afin d'obtenir les informations des films",
-        "Mis en place de containeur Docker autant pour le dévelopement que pour les déploiements"
+        "Conçu et implémenté de manière indépendante un système de classement basé sur l'algorithme ELO pour des comparaisons par paires de films, explorant la conception algorithmique et les méthodologies de classement comme un défi personnel",
+        "Intégré une API tierce pour récupérer des données complètes sur les films, m'initiant au travail avec des API externes et à la synchronisation des données",
+        "Mis en place un environnement conteneurisé avec Docker à partir de zéro pour simplifier le développement et le déploiement, approfondissant ainsi ma compréhension de la conteneurisation et des pratiques DevOps",
+        "Développé une interface front-end réactive et intuitive avec React, expérimentant avec les principes modernes d'UI/UX pour créer une expérience utilisateur engageante"
       ],
       "keywords": [
         "React",
@@ -194,24 +156,6 @@
         "PostgreSQL"
       ],
       "url": "https://gitlab.com/chriscarreau/movie-rater",
-      "type": "application",
-      "roles": []
-    },
-    {
-      "name": "Resistance Online",
-      "description": "Port non-officiel du jeu de société 'Resistance'. Fait pour être joué localement en personne, où chaque joueur joue sur son téléphone, et le plateau est affiché  sur grand écran. Similaire aux jeux Jackbox.",
-      "summary": "Port non-officiel du jeu de société 'Resistance'. Fait pour être joué localement en personne, où chaque joueur joue sur son téléphone, et le plateau est affiché  sur grand écran. Similaire aux jeux Jackbox.",
-      "highlights": [
-        "Implémenté un websocket permettant à jusqu'à 10 joueurs de jouer ensemble en temps réel",
-        "Architecture 'Front-end' en React/Typescript",
-        "Architecture 'Back-end' avec Node.js et Express"
-      ],
-      "keywords": [
-        "React",
-        "Node.js",
-        "Websocket",
-        "Game"
-      ],
       "type": "application",
       "roles": []
     }

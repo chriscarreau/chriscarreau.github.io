@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Christophe Carreau-Lacasse",
-    "label": "Senior Software Engineer",
+    "label": "Senior Fullstack Developer",
     "email": "chris.carreau@hotmail.com",
     "phone": "+1 (438) 825-2012",
     "location": {
@@ -12,7 +12,7 @@
       "countryCode": "CA",
       "region": "Québec"
     },
-    "summary": "Fullstack senior software engineer with a strong background in web development, and an interest in anything multimedia",
+    "summary": "Senior fullstack developer passionate about web development and all things interactive, with solid experience in back-end and DevOps. Leveraging deep expertise in microservices, CI/CD pipelines, and cloud technologies (GCP, AWS), I have contributed to large-scale projects, particularly in the video game industry, including live-service games with millions of users. My journey has allowed me to design scalable systems, streamline deployment processes, and enhance system observability using tools like Prometheus and New Relic. I've also mentored developers to improve team productivity and foster growth, all while staying driven by new technical challenges and continuous learning",
     "profiles": [
       {
         "network": "Github",
@@ -25,54 +25,39 @@
     {
       "name": "Big Fish Games",
       "company": "Big Fish Games",
-      "position": "Senior Fullstack Programmer",
+      "position": "Senior Fullstack Developer",
       "startDate": "2024-11-01",
-      "summary": "Worked on the Publisher portal",
       "highlights": [
-        "Part of a small agile team in charge of creating a web-based publisher portal made with Angular",
-        "Managed a CI/CD pipeline with Kubernetes deployment on GCP, with monitoring using Prometheus and New Relic",
-        "Adapted an existing Java and C# microservices game backend to fit the goal of the publisher portal",
-        "Mentored junior developers and helped them develop their soft and hard skills",
-        "Part of an on-call rotation to ensure reliability of our deployed services"
+        "Part of a small agile team responsible for creating a web publishing portal built with Angular",
+        "Managed a CI/CD pipeline with Kubernetes deployments on GCP, with observability using Prometheus and New Relic, reducing deployment time to a few minutes and enabling instant rollback in case of issues",
+        "Simplified and adapted a complex microservices architecture (C# and Java) by removing unnecessary features and adding those required for the publishing portal. This approach accelerated development while maintaining a high level of optimization and ensuring effective service scalability",
+        "Mentored junior developers by enhancing their technical and professional skills, enabling them to become more autonomous",
+        "Implemented an optimized Docker Compose setup, reducing development environment setup time from several hours to a few minutes, thereby improving the productivity of the entire team"
       ]
     },
     {
       "name": "Behaviour Interactive",
       "company": "Behaviour Interactive",
-      "position": "Senior back-end Programmer",
+      "position": "Senior Back-end Developer",
       "startDate": "2023-01-01",
       "endDate": "2024-10-31",
-      "summary": "Worked on the Dead by Daylight back-end team",
       "highlights": [
-        "Worked on a distributed Typescript Node.js back-end for a live-service game used by millions of players",
-        "Led a major refactor of the microtransactions service, improving monitoring, analytics, and reducing technical debt, influencing architecture decisions across the team"
+        "Contributed to the development and maintenance of a Node.js backend in TypeScript for \"Dead by Daylight,\" a live-service game with millions of players, ensuring the stability and scalability of backend services",
+        "Led a complete overhaul of the microtransactions service (handling thousands of transactions daily), reducing the gap of approximately 10% between internal analytics and actual revenue. This improvement strengthened transaction observability and enabled more precise monetization decisions",
+        "Investigated and fixed numerous bugs reported by players, often related to edge cases and unexpected usage scenarios. These fixes improved the stability and user experience of the game in production"
       ]
     },
     {
-      "name": "Square Enix Montréal",
-      "company": "Square Enix Montréal",
-      "position": "Tools Programmer",
+      "name": "Square Enix Montréal/Studio Onoma",
+      "company": "Square Enix Montréal/Studio Onoma",
+      "position": "Tools Developer",
       "startDate": "2019-01-01",
       "endDate": "2022-11-01",
-      "summary": "Worked on the central Live-Ops team to create tools for the multiple game teams of the studio.",
       "highlights": [
-        "Built an internal tools portal in Angular that was used to manage the different live operations related features of all of our games",
-        "Worked on a large microservices architecture in C# (.NET 6) and Java for the back-end",
-        "Implemented multiple features in a Unity SDK",
-        "Put in place a new Dev Guild community more oriented toward actions and problem resolution"
-      ]
-    },
-    {
-      "name": "Internships",
-      "company": "Internships",
-      "position": "Intern Programmer",
-      "startDate": "2013-05-01",
-      "endDate": "2018-11-01",
-      "summary": "Throughout my education I've had multiple programming internships",
-      "highlights": [
-        "Web developer intern for Skytech Communication, on the Omnivox platform",
-        "Fullstack developer intern at Desjardins, working on the Accès D platform",
-        "Android developer intern at PPLCONNECT, a small startup of 4-5 employees"
+        "Developed an internal Angular portal used by three game teams, centralizing Live-Ops management. This solution prevented each team from recreating their own backend, allowing them to focus solely on game development",
+        "Collaborated on server code organized in a microservices architecture using C# (.NET 6) and Java",
+        "Participated in the development of a Unity SDK facilitating the integration of backend services into the studio's games, enabling game teams to quickly access Live-Ops features without additional client-side effort",
+        "Founded a developer guild focused on knowledge sharing, adopting best practices, and solving concrete problems faced by technical teams, thereby improving collaboration and overall developer efficiency at the studio"
       ]
     }
   ],
@@ -83,20 +68,6 @@
       "studyType": "Bachelor",
       "startDate": "2015-09-01",
       "endDate": "2020-04-01"
-    },
-    {
-      "institution": "Technische Universität München",
-      "area": "Software Engineering",
-      "studyType": "Exchange",
-      "startDate": "2017-10-01",
-      "endDate": "2018-08-01"
-    },
-    {
-      "institution": "Cégep Édouard-Montpetit",
-      "area": "Computer Science",
-      "studyType": "DEC",
-      "startDate": "2012-09-01",
-      "endDate": "2015-05-01"
     }
   ],
   "skills": [
@@ -156,15 +127,6 @@
         "Git",
         "Perforce"
       ]
-    },
-    {
-      "name": "Game Development",
-      "level": "Intermediate",
-      "keywords": [
-        "Unreal Engine",
-        "Unity",
-        "Godot"
-      ]
     }
   ],
   "languages": [
@@ -183,9 +145,10 @@
       "description": "Ultimate movie rating platform, where you find out your favorite movie by matching movies you've seen against each other",
       "summary": "Ultimate movie rating platform, where you find out your favorite movie by matching movies you've seen against each other",
       "highlights": [
-        "Pairwise comparison using an ELO-based rating system for movies",
-        "Integrated a third-party API to fetch movie data",
-        "Docker container setup for development and deployment"
+        "Independently designed and implemented a custom ELO-based rating system for pairwise movie comparisons, exploring algorithmic design and ranking methodologies as a personal challenge",
+        "Integrated a third-party API to fetch comprehensive movie data, teaching myself how to work with external APIs and manage data synchronization",
+        "Set up a Docker-based containerized environment from scratch to streamline development and deployment, deepening my understanding of containerization and DevOps practices",
+        "Built a responsive and intuitive front-end using React, experimenting with modern UI/UX principles to create an engaging user experience"
       ],
       "keywords": [
         "React",
@@ -193,24 +156,6 @@
         "PostgreSQL"
       ],
       "url": "https://gitlab.com/chriscarreau/movie-rater",
-      "type": "application",
-      "roles": []
-    },
-    {
-      "name": "Resistance Online",
-      "description": "Unofficial port of the board game 'Resistance' to be played as a local couch-multiplayer game, where each player plays on their phone and the board is displayed on a big screen. Similar to Jackbox games.",
-      "summary": "Unofficial port of the board game 'Resistance' to be played as a local couch-multiplayer game, where each player plays on their phone and the board is displayed on a big screen. Similar to Jackbox games.",
-      "highlights": [
-        "Websocket based real-time game for up to 10 players",
-        "React front-end architecture",
-        "Node.js with Express back-end architecture"
-      ],
-      "keywords": [
-        "React",
-        "Node.js",
-        "Websocket",
-        "Game"
-      ],
       "type": "application",
       "roles": []
     }
